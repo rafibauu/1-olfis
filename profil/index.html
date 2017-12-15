@@ -1,0 +1,139 @@
+<?php
+include '../konfigurasi/config.php';
+include '../fragment/header.php';
+?>
+<link rel="stylesheet" type="text/css" href="<?= BASEPATH ?>\assets\style\profil.css">
+</head>
+<body>
+    <?php
+    include '../fragment/menu.php';
+    ?>
+
+  <div class="container">
+    <h1>Profil Peserta</h1>
+    <hr>
+    <div class="row">
+      <!-- left column -->
+      <div class="col-md-3">
+        <div class="text-center">
+          <img src="<?= BASEPATH ?>\assets\image\avatar\H1E013037.jpg" class="avatar" alt="avatar">
+          <h6>Silakan upload untuk mengganti foto.</h6>
+
+          <input type="file" class="form-control">
+        </div>
+      </div>
+
+      <!-- edit form column -->
+      <div class="col-md-9 personal-info">
+        <div class="alert alert-info alert-dismissable">
+          <i class="fa fa-pencil-square-o"></i>
+          Silakan edit profil anda sesuai dengan data yang <strong> benar. </strong>
+        </div>
+        <h3>Data Personal</h3>
+
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Nomor peserta:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="OLFIS-18-01-045" readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Kategori:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="SMA/MA/Sederajat" readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Panitia lokal:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="Purwokerto" readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Nama lengkap:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="Rafi Bagaskara Aulia Utama">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Tempat lahir:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="Bogor">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Tanggal lahir:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="8 Desember 1994">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Alamat peserta:</label>
+            <div class="col-lg-8">
+              <textarea class="form-control" rows="3" id="alamat">Villa Ciomas Indah Blok K 9 No.2 Kelurahan Ciomas Rahayu Kecamatan Ciomas Kabupaten Bogor Jawa Barat 16610</textarea>
+            </div>
+          </div>
+          <h3>Data Sekolah</h3>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Asal sekolah:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="SMA Negeri 6 Bogor" readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Alamat sekolah:</label>
+            <div class="col-lg-8">
+              <textarea class="form-control" rows="3" id="alamat">Villa Ciomas Indah Blok K 9 No.2 Kelurahan Ciomas Rahayu Kecamatan Ciomas Kabupaten Bogor Jawa Barat 16610</textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Kota/Kab sekolah:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="Bogor">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Nomor telepon sekolah:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="0251-8633449">
+            </div>
+          </div>
+          <h3>Data User</h3>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Nama pengguna:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="rafibauu">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">E-mail:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="email" value="rafi.bagaskara08@gmail.com">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Password:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="password" value="rafi08121994"  readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label"></label>
+            <div class="col-lg-8">
+              <a href="#" class="text-primary"> Ganti Password</a>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-3 control-label"></label>
+            <div class="col-md-8">
+              <input type="button" class="btn-priedit btn btn-primary" value="Simpan Data">
+              <span></span>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <?php include '..\fragment\footer.php'; ?>

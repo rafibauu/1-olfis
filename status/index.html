@@ -1,0 +1,106 @@
+<?php
+include '../konfigurasi/config.php';
+include '../fragment/header.php';
+?>
+<link rel="stylesheet" type="text/css" href="<?= BASEPATH ?>\assets\style\status.css">
+</head>
+<body>
+    <?php
+    include '../fragment/menu.php';
+    ?>
+
+  <div class="container">
+    <h1>Status Peserta</h1>
+    <hr>
+    <div class="row">
+      <!-- left column -->
+      <div class="col-md-3">
+        <div class="text-center">
+          <img src="<?= BASEPATH ?>\assets\image\avatar\H1E013037.jpg" class="avatar" alt="avatar"> <hr>
+          <h4>Rafi Bagaskara Aulia Utama</h4>
+          <h5>OLFIS-18-01-045</h5>
+          <h5>SMA Negeri 6 Bogor</h5> <hr>
+        </div>
+      </div>
+
+      <!-- edit form column -->
+      <div class="col-md-9 personal-info">
+        <h3>Status Personal</h3>
+
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Pendaftaran:</label>
+            <div class="col-lg-8">
+              <input class="form-control alert-success" type="text" value="Sudah terdaftar" readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Waktu pendaftaran:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="19 Desember 2017" readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">pembayaran:</label>
+            <div class="col-lg-8">
+              <input class="form-control alert-success" type="text" value="Sudah membayar" readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Waktu pembayaran:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="17 Desember 2017 pukul 13.23" readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Metode pembayaran:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="Transfer (dari Bank BCA)" readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Akun Website:</label>
+            <div class="col-lg-8">
+              <input class="form-control alert-success" type="text" value="Sudah terverifikasi" readonly>
+            </div>
+          </div>
+          <h3>Status Penyisihan</h3>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Jawaban benar:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="45 soal" readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Jawaban salah:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="4 soal" readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Jawaban kosong:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="1 soal" readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Total nilai:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="180" readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Hasil penyisihan:</label>
+            <div class="col-lg-8">
+              <div class="alert alert-success alert-dismissable">
+                <strong> SELAMAT </strong> anda melaju ke babak selanjutnya !
+              </div>
+              <h5> Ketentuan Babak Semi Final dan & Final bisa dilihat  <a href="#" class="btn-priedit btn btn-primary">di sini</a> <h5>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <?php include '..\fragment\footer.php'; ?>

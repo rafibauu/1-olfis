@@ -1,0 +1,41 @@
+a, a:hover, a:active, a:visited, a:hover:active {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.footer1 {
+  color: #fff;
+  background:#3b4456;
+  padding: 5px;
+  margin-top: 0px;
+}
+
+.list-edit {
+  padding:5px 15px;
+background-color:rgba(0, 0, 0, 0);
+border: none;
+}
+
+.btn-media {
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+}
+
+.btn-social {
+  padding-left: 35px;
+}
+
+.btn-social>:first-child{
+  border-right:none;
+  font-size: 1.2em;
+}
+
+.block-half {
+  width :75%;
+}
+
+.footer2 {
+  color: #fff;
+  background:  #2b3548;
+  padding: 5px;
+}
