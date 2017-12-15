@@ -1,13 +1,60 @@
-<?php
-include '../konfigurasi/config.php';
-include '../fragment/header.php';
-?>
-<link rel="stylesheet" type="text/css" href="<?= BASEPATH ?>\assets\style\status.css">
-</head>
-<body>
-    <?php
-    include '../fragment/menu.php';
-    ?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+        <title>Olfis Unsoed 2018</title>
+
+        <!-- Untuk mengetahui engine render pada IE -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+        <!-- Untuk mengatur ukuran di dalam mobile view, tanpa ini maka ukuran
+        kurang bagus di mobile view-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS Bootsrtrap -->
+        <link rel="stylesheet" type="text/css" href="https://rafibauu.github.io/1-olfis/assets/bootstrap/css/bootstrap.min.css">
+
+        <!-- CSS Social-->
+        <link rel="stylesheet" type="text/css" href="https://rafibauu.github.io/1-olfis/assets/bootstrap/css/bootstrap-social.css">
+        <link rel="stylesheet" type="text/css" href="https://rafibauu.github.io/1-olfis/assets/bootstrap/css/font-awesome.css">
+
+        <!-- CSS eksternal Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="https://rafibauu.github.io/1-olfis/assets/style/menu.css">
+        <link rel="stylesheet" type="text/css" href="https://rafibauu.github.io/1-olfis/assets/style/footer.css">
+        <link rel="stylesheet" type="text/css" href="https://rafibauu.github.io/1-olfis/assets/style/status.css">
+
+      </head>
+      <body>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="https://rafibauu.github.io/1-olfis/index.html"><b>Olfis Unsoed</b></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="https://rafibauu.github.io/1-olfis/index.html">Beranda <span class="sr-only">(current)</span></a></li>
+                        <li><a href="https://rafibauu.github.io/1-olfis/download">Download</a></li>
+                        <li><a href="https://rafibauu.github.io/1-olfis/profil">Profil</a></li>
+                        <li><a href="https://rafibauu.github.io/1-olfis/status">Status</a></li>
+                        <li><a href="https://rafibauu.github.io/1-olfis/bantuan">Bantuan</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="https://rafibauu.github.io/1-olfis/profil"><span class="glyphicon glyphicon-user"></span> rafibauu</a></li>
+                        <li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> Log-out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
 
   <div class="container">
     <h1>Status Peserta</h1>
@@ -103,4 +150,71 @@ include '../fragment/header.php';
     </div>
   </div>
   <hr>
-  <?php include '..\fragment\footer.php'; ?>
+   <footer>
+          <div class="footer1 container-fluid text-center">
+           <div class="container">
+            <div class="row text-justify">
+              <div class="col-md-4">
+                <ul class="list-group">
+                 <li class="list-edit list-group-item"><h3>Link</h3></li>
+                 <li class="list-edit list-group-item"><a href="http://unsoed.ac.id"> Unsoed</a></li>
+                 <li class="list-edit list-group-item"><a href="http://fmipa.unsoed.ac.id"> Fakultas Matematika dan Ilmu Pengetahuan Alam</a></li>
+                 <li class="list-edit list-group-item"><a href="http://fisika.fmipa.unsoed.ac.id"> Jurusan Fisika</a></li>
+                </ul>
+              </div>
+
+              <div class="col-md-4">
+                <ul class="list-group">
+                 <li class="list-edit list-group-item"><h3>Ikuti Kami</h3></li>
+                 <li class="list-edit list-group-item">
+                   <a class="block-half btn-media btn btn-block btn-social btn-twitter">
+                     <span class="fa fa-twitter"></span> himafiunsoed
+                   </a>
+                 </li>
+                 <li class="list-edit list-group-item">
+                   <a class="block-half btn-media btn btn-block btn-social btn-facebook">
+                     <span class="fa fa-facebook"></span> himafiunsoed
+                   </a>
+                 </li>
+                 <li class="list-edit list-group-item">
+                   <a class="block-half btn-media btn btn-block btn-social btn-instagram">
+                     <span class="fa fa-instagram"></span> himafiunsoed
+                   </a>
+                 </li>
+                </ul>
+              </div>
+
+              <div class="col-md-4">
+                <ul class="list-group">
+                 <li class="list-edit list-group-item"><h3>Tentang Kami</h3></li>
+                 <li class="list-edit list-group-item"><a href="#"> Himpunan Mahasiswa Fisika FMIPA Unsoed</a></li>
+                 <li class="list-edit list-group-item"><a href="#"> Olimpiade Fisika Unsoed 2018</a></li>
+                 <li class="list-edit list-group-item"><a href="https://rafibauu.github.io/1-olfis/bantuan"> Pusat Bantuan</a></li>
+                </ul>
+             </div>
+
+            </div>
+          </div>
+        </div>
+
+          <div class="footer2 container-fluid text-center">
+            <div class="container">
+            <div class="col-md-6 text-left">
+              <small> <i> Copyright &copy; 2017</i></small>
+            </div>
+            <div class="col-md-6 text-right">
+              <small> Rafi Bagaskara Aulia Utama </small>
+            </div>
+        </div>
+          </div>
+
+        </footer>
+
+          <!-- Import jQuery, lib untuk front end -->
+          <script src="https://rafibauu.github.io/1-olfis/assets/jquery/jquery-3.2.1.min.js"></script>
+
+          <!-- Import Bootsrap JavaScript, Js bawaan Bootstrap -->
+          <script src="https://rafibauu.github.io/1-olfis/assets/bootstrap/js/bootstrap.min.js"></script>
+
+        </body>
+        </html>
