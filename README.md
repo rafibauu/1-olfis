@@ -1,6 +1,12 @@
 # 1-olfis
 This is my web app portofolio for Olfis 2018 (Front-End-Only)
 
-Support item : HTML, CSS, Bootstrap
+# Demo Link
+Just clik the next link to view the page [rafibauu.github.io/olfis2018](https://rafibauu.github.io/olfis2018/)
 
-Link : rafibauu.github.io/1-olfis
+# Languanges & Frameworks
+- HTML
+- CSS
+- Javascript
+- Bootstrap
+- jQuery
