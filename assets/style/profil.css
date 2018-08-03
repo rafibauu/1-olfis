@@ -1,0 +1,27 @@
+html, body {
+    background:#FFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a, a:hover, a:active, a:visited, a:hover:active {
+  text-decoration: none;
+}
+
+.avatar {
+ height: 200px;
+ width: 150px;
+}
+
+.personal-info {
+  margin-top: 10px;
+}
+
+.btn-priedit, .btn-priedit:visited   {
+  background-color: #64a4da;
+  border-color: #4a90ce;
+}
+
+.btn-priedit:hover, .btn-priedit:active, .btn-priedit:hover:active {
+  background-color: #3972a2;
+  border-color: #29608e;
+}

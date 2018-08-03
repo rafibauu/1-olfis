@@ -1,0 +1,72 @@
+html, body {
+    background:#FFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.h3-edit-1 {
+  background: #33b7af;
+color: #FFF;
+padding: 5px;
+border-radius: 4px;
+}
+
+.h3-edit-2 {
+  background: #ec9797;
+color: #FFF;
+padding: 5px;
+border-radius: 4px;
+}
+
+.h3-edit-3 {
+  background: #64a4da;
+color: #FFF;
+padding: 5px;
+border-radius: 4px;
+}
+
+.btn-utama, .btn-utama:visited  {
+  background: #33b7af;
+  border-color: #1d9a93;
+}
+
+.btn-utama:hover, .btn-utama:active, .btn-utama:hover:active {
+  background: #208a83;
+  border-color: #1d9a93;
+}
+
+.btn-ditandai, .btn-ditandai:visited {
+  color: #FFF;
+  background: #ec9797;
+  border-color: #da7e7e;
+}
+
+.btn-ditandai:hover, .btn-ditandai:active, .btn-ditandai:hover:active {
+  color: #FFF;
+  background: #c76161;
+  border-color: #ec9797;
+}
+
+.btn-priedit, .btn-priedit:visited   {
+  color: #FFF;
+  background-color: #64a4da;
+  border-color: #4a90ce;
+}
+
+.btn-priedit:hover, .btn-priedit:active, .btn-priedit:hover:active {
+  color: #FFF;
+  background-color: #3972a2;
+  border-color: #29608e;
+}
+
+.link-title {
+  margin-bottom: 0px;
+}
+
+.no-left {
+  padding-left: 0px;
+  color:#8e8e8e;
+}
+
+.link-soal {
+  margin: 15px 0px;
+}
